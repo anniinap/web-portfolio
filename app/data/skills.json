@@ -1,0 +1,29 @@
+{
+    "skills": [
+      {
+        "id": 1,
+        "title": "Web Visuality",
+        "description": "Includes HTML, CSS, CSS libraries like Tailwind and Bootstrap, as well as responsive design techniques.",
+        "icons": " <SiTailwindcss /> "
+      },
+      {
+        "id": 2,
+        "title": "Programming",
+        "description": "Knowledge of fundamental programming concepts, including object-oriented programming (OOP) and concurrent programming using C++.",
+        "icons": " <SiTailwindcss /> "
+      },
+      {
+        "id": 3,
+        "title": "Frontend",
+        "description": "Experience in building interactive web applications using React, JavaScript, and Next.js for seamless frontend development.",
+        "icons": " <SiTailwindcss /> "
+      },
+      {
+        "id": 4,
+        "title": "Backend",
+        "description": "Hands-on experience building web applications using Node.js, Express, and MongoDB.",
+        "icons": " <SiTailwindcss /> "
+      }
+    ]
+  }
+  

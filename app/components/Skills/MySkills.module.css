@@ -1,0 +1,18 @@
+.skillBox {
+    background-color: var(--background); 
+    border: var( --border);
+}
+.skillHeaderDiv {
+    background-color: var(--light);
+}
+.skillHeader {
+    color: var(--background);   
+}
+.skillBody {
+    font-size: 17px;
+    text-align: start; 
+}
+.schoolHeader {
+    text-transform: uppercase;
+    line-height: 36px;
+}

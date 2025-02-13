@@ -1,0 +1,42 @@
+.heroTitle {
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--secondary);
+}
+.heroSubTitle {
+    font-style: normal;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2E3430;
+}
+
+.heroImage {
+
+    border-radius: 20px;
+    max-height: 600px;
+
+}
+
+@media only screen and (max-width: 1280px){
+    .heroTitle {
+        font-size: 52px;
+    }
+    .heroSubTitle {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .heroTitle {
+        font-size: 42px;
+    }
+    .heroSubTitle {
+        font-size: 16px;
+    }
+}
+
