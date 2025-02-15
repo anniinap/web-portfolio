@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # tai "yarn build", jos käytät Yarnia
+  publish = ".next"          # Julkaisuhakemisto (Next.js:lle tämä on .next)
