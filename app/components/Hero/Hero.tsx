@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Hero image */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center max-w[500px]">
           <img
             className={styles.heroImage}
             src="/images/hero-image.jpg"
