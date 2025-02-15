@@ -77,7 +77,9 @@ const MyPortfolio = () => {
         id="MyProjects"
         className="flex flex-col px-10 py-16 lg:px-20 lg:py-16 gap-8 items-center"
       >
+        {/* Title */}
         <h2 className="m-0 text-center">My Projects</h2>
+        {/* Select buttons */}
         <div className="flex justify-center gap-5">
           <button
             onClick={() => SelectAll()}
@@ -104,6 +106,7 @@ const MyPortfolio = () => {
             Front-End
           </button>
         </div>
+        {/* Project card */}
         <div className="flex flex-col xl:flex-row gap-8 justify-between">
           {(allSelectedProjects.length > 0
             ? allSelectedProjects

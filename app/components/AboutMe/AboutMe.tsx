@@ -11,6 +11,7 @@ const AboutMe = () => {
         <div className="flex justify-center">
           <h2>About me</h2>
         </div>
+        {/* About Info */}
         <div className="grid justify-center grid-cols-1 xl:grid-cols-2 items-star gap-14">
           <div className="flex flex-col items-start gap-3">
             <h4>
@@ -33,6 +34,7 @@ const AboutMe = () => {
               explore new places. I’m passionate about learning, growing, and
               contributing to innovative tech projects.
             </p>
+            {/* Buttons */}
             <div className="flex gap-5">
               <a
                 href="https://drive.google.com/uc?export=download&id=1sO8TUdorDUVpabDjq5RS3qIIXWDrMdCU"
@@ -54,6 +56,7 @@ const AboutMe = () => {
               </a>
             </div>
           </div>
+          {/* About image */}
           <div className="flex justify-center items-center">
             <img
               className="max-h-[600px] rounded-3xl"

@@ -6,7 +6,8 @@ const Hero = () => {
       <section
         id="Home"
         className="px-10 pt-20 lg:px-20 lg:py-40 grid gap-10 lg:gap-14 grid-cols-1 lg:grid-cols-2"
-      >
+      > 
+      {/* Hero info */}
         <div className="flex flex-col justify-center gap-6  ">
           <div className="flex flex-col justify-start items-center lg:items-start gap-2">
             <p className={styles.heroSubTitle}>Software engineering student</p>
@@ -20,6 +21,7 @@ const Hero = () => {
               to apply and grow these skills in a real-world setting.
             </p>
           </div>
+          {/* Hero buttons */}
           <div className="flex justify-center lg:justify-start">
             <a
               href="https://github.com/anniinap"
@@ -39,7 +41,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-
+        {/* Hero image */}
         <div className="flex items-center justify-center">
           <img
             className={styles.heroImage}

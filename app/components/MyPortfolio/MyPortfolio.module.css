@@ -5,12 +5,12 @@ padding: 2.5rem 3rem;
   flex-direction: column;
   gap: 0.75rem;
   border-radius: 0.5rem;
-  width: 400px;
+  max-width: 400px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
-  transform: translateY(-10px); /* Kortin nosto ylöspäin */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Lisää varjo */
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
 }
 .description {
     font-size: 17px;   

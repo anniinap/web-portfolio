@@ -11,7 +11,7 @@
         { "name": "Sass", "icon": "SiSass" }
       ],
       "category": "web design",
-      "url": "https://github.com/anniinap/expense-app"
+      "url": "https://github.com/anniinap/sweet_cakes"
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
         { "name": "React", "icon": "SiReact" }
       ],
       "category": "front end",
-      "url": "https://github.com/anniinap/expense-app"
+      "url": "https://github.com/anniinap/web-portfolio"
     }
   ]
 }

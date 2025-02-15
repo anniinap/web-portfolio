@@ -3,8 +3,8 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .skillBox:hover {
-  transform: translateY(-10px); /* Kortin nosto ylöspäin */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Lisää varjo */
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
 }
 .skillHeaderDiv {
     background-color: var(--light);

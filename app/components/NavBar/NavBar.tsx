@@ -16,6 +16,7 @@ const NavBar = () => {
     <>
       <nav className="fixed top-0 left-0 w-full">
         <div className="flex flex-row items-center justify-between bg-white w-full px-10 py-2 lg:px-20 relative z-20">
+          {/* Logo */}
           <div>
             <h3 className={styles.navHeader}>anniina pitkä</h3>
           </div>
