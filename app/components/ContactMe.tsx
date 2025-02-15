@@ -10,9 +10,10 @@ const ContactMe = () => {
           <div className=''>
             <p className=''>Please don’t hesitate to reach out  via email or phone. I’m always excited to connect and answer any questions you might have. Feel free to get in touch – I’d love to hear from you and discuss potential opportunities!</p>
           </div>
-          <div className="flex flex-col space-y-2">
-          <a href="mailto:anniina.pitka@gmail.com">
-            <p className="flex items-center">
+          <div className="flex flex-col items-center">
+            <div>
+              <a href="mailto:anniina.pitka@gmail.com">
+            <p className="flex items-center hover:scale-110 transition-all duration-300 ease-in-out">
               <MdOutlineMail className="mr-12" />
               anniina.pitka@gmail.com
             </p>
@@ -21,6 +22,8 @@ const ContactMe = () => {
               <MdOutlinePhoneEnabled className="mr-12" />
               +358 40 5088593
             </p>
+
+            </div>
           </div>
 
         </div>

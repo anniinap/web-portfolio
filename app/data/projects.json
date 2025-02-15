@@ -1,23 +1,42 @@
 {
-    "projects": [
-      {
-        "id": 1,
-        "name": "Project One",
-        "description": "A brief description of the first project.",
-        "technologies": ["HTML", "CSS", "JavaScript"]
-      },
-      {
-        "id": 2,
-        "name": "Project Two",
-        "description": "A brief description of the second project.",
-        "technologies": ["React", "Node.js", "MongoDB"]
-      },
-      {
-        "id": 3,
-        "name": "Project Three",
-        "description": "A brief description of the third project.",
-        "technologies": ["Python", "Django", "PostgreSQL"]
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "name": "Sweet Cake Website",
+      "description": "Sweet Cake Website showcases cakes and delicious desserts with a clean, responsive design using HTML, CSS, and Bootstrap. Sass enhances the styling, offering elegant, customizable themes for a modern, visually appealing, and user-friendly experience.",
+      "technologies": [
+        { "name": "HTML", "icon": "SiHtml5" },
+        { "name": "CSS", "icon": "SiCss3" },
+        { "name": "Bootstrap", "icon": "SiBootstrap" },
+        { "name": "Sass", "icon": "SiSass" }
+      ],
+      "category": "web design",
+      "url": "https://github.com/anniinap/expense-app"
+    },
+    {
+      "id": 2,
+      "name": "Expense App",
+      "description": "Expense App is a web application that helps users manage and track their monthly expenses. Built with React, TypeScript, and Vite, it uses Material UI for the interface, Axios for API requests, and a local JSON server to store expense data.",
+      "technologies": [
+        { "name": "React", "icon": "SiReact" },
+        { "name": "TypeScript", "icon": "SiTypescript" },
+        { "name": "Vite", "icon": "SiVite" }
+      ],
+      "category": "front end",
+      "url": "https://github.com/anniinap/expense-app"
+    },
+    {
+      "id": 3,
+      "name": "My Personal Website",
+      "description": "My website is built with Next.js, React, TypeScript, and Tailwind CSS, offering a fast and responsive experience. Next.js handles server-side rendering and static site generation, while React powers interactive UI components, and Tailwind CSS ensures a flexible design.",
+      "technologies": [
+        { "name": "Next", "icon": "SiNextdotjs" },
+        { "name": "TypeScript", "icon": "SiTypescript" },
+        { "name": "Tailwind", "icon": "SiTailwindcss" },
+        { "name": "React", "icon": "SiReact" }
+      ],
+      "category": "front end",
+      "url": "https://github.com/anniinap/expense-app"
+    }
+  ]
+}

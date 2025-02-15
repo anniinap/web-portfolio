@@ -5,9 +5,10 @@
 
 :root {
   --background: #F6F6F7;
-  --primary: #68756D;     
-  --secondary: #48504B;
-  --light: #97A79D;
+  --primary: #A6B7AA;     
+  --secondary: #68756D;
+  --light: #A6B7AA;
+  --dark: #2E3430;
   --border: 2px solid #68756D;
   --font-family-primary: "Nunito", serif;
   --font-family-secondary:  "Playfair Display", serif;;
@@ -20,32 +21,34 @@ body {
   margin: 0;
 }
 button {
-  background-color: var(--primary);
-  color: var(--primary);
+  background-color: var(--secondary);
+  color: var(--secondary);
   border: var(--border);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
 }
 button:hover {
   background-color: var(--secondary);
   border-color: var(--secondary);
 }
 li:hover {
-  color: var(--primary);
+  color: var(--secondary);
+  transform: scale(1.1);
 }
 h2 {
-  font-family: var(--font-family-secondary);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  color: #2E3430;
-
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--dark);
 }
 h3 {
   font-family: var(--font-family-secondary);
   font-style: normal;
   font-size: 25px;
   text-transform: uppercase;
-  line-height: 180%;
-  color: #2E3430;
+  color: var(--dark);
   letter-spacing: 5px;
 }
 h4 {
@@ -53,16 +56,15 @@ h4 {
     font-weight: 400;
     font-size: 25px;
     line-height: 36px;
-
-    color: #333333;
+    color: var(--dark);
 }
 p {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    color: #2E3430;
-    text-align: justify
+    text-align: justify;
+    color: var(--dark);
 }
 
 @media only screen and (max-width: 1280px){
@@ -81,7 +83,7 @@ p {
   h2 {
     font-size: 40px;
   }
-  h3, h4 {
+  h3{
     font-size: 18px;
   }
   p {

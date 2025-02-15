@@ -1,12 +1,13 @@
 .skillBox {
-    background-color: var(--background); 
-    border: var( --border);
+    background-color: white; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skillBox:hover {
+  transform: translateY(-10px); /* Kortin nosto ylöspäin */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Lisää varjo */
 }
 .skillHeaderDiv {
     background-color: var(--light);
-}
-.skillHeader {
-    color: var(--background);   
 }
 .skillBody {
     font-size: 17px;

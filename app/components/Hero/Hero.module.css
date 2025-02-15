@@ -1,11 +1,11 @@
 .heroTitle {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
+    font-weight: 500;
+    font-size: 70px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--secondary);
+    color: #2E3430;
 }
 .heroSubTitle {
     font-style: normal;
@@ -15,20 +15,25 @@
     letter-spacing: 1px;
     color: #2E3430;
 }
-
 .heroImage {
-
     border-radius: 20px;
-    max-height: 600px;
-
+    max-height: 500px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);   
 }
-
+.github:hover {
+    background-color: var(--background);
+    color: var(--secondary);
+}
 @media only screen and (max-width: 1280px){
     .heroTitle {
         font-size: 52px;
     }
     .heroSubTitle {
         font-size: 20px;
+    }
+    .heroImage {
+        max-width: 400px
     }
 }
 @media only screen and (max-width: 520px){
@@ -39,4 +44,5 @@
         font-size: 16px;
     }
 }
+
 

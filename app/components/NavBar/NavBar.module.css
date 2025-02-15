@@ -1,10 +1,18 @@
 .navHeader {
-
 font-family: var(--font-family-secondary);
 font-style: normal;
 font-size: 25px;
 text-transform: uppercase;
 line-height: 180%;
 color: #2E3430;
-
+}
+@media only screen and (max-width: 566px) {
+.navHeader {
+font-size: 17px;
+}
+}
+@media only screen and (max-width: 450px) {
+.navHeader {
+font-size: 15px;
+}
 }
