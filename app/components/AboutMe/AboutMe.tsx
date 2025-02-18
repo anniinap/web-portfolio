@@ -15,7 +15,7 @@ const AboutMe = () => {
         <div className="grid justify-center grid-cols-1 xl:grid-cols-2 items-star gap-14">
           <div className="flex flex-col items-start gap-3">
             <h4>
-              I am a software developer student based in Finland and I have
+              I am a software development student based in Finland and I have
               background in customer service.
             </h4>
             <p className="flex flex-col gap-2">

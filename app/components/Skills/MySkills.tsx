@@ -37,7 +37,7 @@ const MySkills = () => {
                 <h4>Information and Communication Technology, Bachelor of Engineering</h4>
                 <h5 className={styles.schoolHeader}>JYVÄSKYLÄ UNIVERSITY OF APPLIED SCIENCES</h5>
                 <p>Sep 2021 — Current</p>
-                <p>Currently studying to become an IT engineer with a specialization in application development. Through the studies, a strong foundation has been built in coding principles, as well as both front-end and back-end development basics.</p>
+                <p>Currently studying to become an IT engineer with a specialization in software development. Through the studies, a strong foundation has been built in coding principles, as well as both front-end and back-end development basics.</p>
             </div>
         </div>
    </section>
